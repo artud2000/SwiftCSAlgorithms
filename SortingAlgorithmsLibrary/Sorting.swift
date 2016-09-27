@@ -27,10 +27,6 @@ class Sorting {
         return tempElements
     }
     
-    class func insertionSortUsingReduce(elemts: [Int]) -> [Int] {
-        
-    }
-    
     class func selectionSort(elements: [Int]) -> [Int] {
         var tempElements: [Int] = elements
         var smallest: Int
